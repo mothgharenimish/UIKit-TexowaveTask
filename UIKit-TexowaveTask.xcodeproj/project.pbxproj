@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		9607E1892B677D0900F5316B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E1882B677D0900F5316B /* AppDelegate.swift */; };
 		9607E18B2B677D0900F5316B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E18A2B677D0900F5316B /* SceneDelegate.swift */; };
-		9607E18D2B677D0900F5316B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E18C2B677D0900F5316B /* ViewController.swift */; };
 		9607E1902B677D0900F5316B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9607E18E2B677D0900F5316B /* Main.storyboard */; };
 		9607E1922B677D0A00F5316B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9607E1912B677D0A00F5316B /* Assets.xcassets */; };
 		9607E1952B677D0A00F5316B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9607E1932B677D0A00F5316B /* LaunchScreen.storyboard */; };
 		9607E1A02B677D0A00F5316B /* UIKit_TexowaveTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E19F2B677D0A00F5316B /* UIKit_TexowaveTaskTests.swift */; };
 		9607E1AA2B677D0A00F5316B /* UIKit_TexowaveTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E1A92B677D0A00F5316B /* UIKit_TexowaveTaskUITests.swift */; };
 		9607E1AC2B677D0A00F5316B /* UIKit_TexowaveTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E1AB2B677D0A00F5316B /* UIKit_TexowaveTaskUITestsLaunchTests.swift */; };
+		9607E1BA2B677D8000F5316B /* TexowaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E1B92B677D8000F5316B /* TexowaveViewController.swift */; };
+		9607E1BD2B6780BC00F5316B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E1BC2B6780BC00F5316B /* Model.swift */; };
+		9607E1C12B67818E00F5316B /* TexowaveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E1BF2B67818E00F5316B /* TexowaveCollectionViewCell.swift */; };
+		9607E1C22B67818E00F5316B /* TexowaveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9607E1C02B67818E00F5316B /* TexowaveCollectionViewCell.xib */; };
+		9607E1C72B678DDD00F5316B /* FilesTableViewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607E1C52B678DDD00F5316B /* FilesTableViewcell.swift */; };
+		9607E1C82B678DDD00F5316B /* FilesTableViewcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9607E1C62B678DDD00F5316B /* FilesTableViewcell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		9607E1852B677D0900F5316B /* UIKit-TexowaveTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-TexowaveTask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9607E1882B677D0900F5316B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9607E18A2B677D0900F5316B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9607E18C2B677D0900F5316B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9607E18F2B677D0900F5316B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9607E1912B677D0A00F5316B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9607E1942B677D0A00F5316B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		9607E1A52B677D0A00F5316B /* UIKit-TexowaveTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit-TexowaveTaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9607E1A92B677D0A00F5316B /* UIKit_TexowaveTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_TexowaveTaskUITests.swift; sourceTree = "<group>"; };
 		9607E1AB2B677D0A00F5316B /* UIKit_TexowaveTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_TexowaveTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9607E1B92B677D8000F5316B /* TexowaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexowaveViewController.swift; sourceTree = "<group>"; };
+		9607E1BC2B6780BC00F5316B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9607E1BF2B67818E00F5316B /* TexowaveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexowaveCollectionViewCell.swift; sourceTree = "<group>"; };
+		9607E1C02B67818E00F5316B /* TexowaveCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TexowaveCollectionViewCell.xib; sourceTree = "<group>"; };
+		9607E1C52B678DDD00F5316B /* FilesTableViewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTableViewcell.swift; sourceTree = "<group>"; };
+		9607E1C62B678DDD00F5316B /* FilesTableViewcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilesTableViewcell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,10 @@
 		9607E1872B677D0900F5316B /* UIKit-TexowaveTask */ = {
 			isa = PBXGroup;
 			children = (
+				9607E1BB2B6780AB00F5316B /* Model */,
+				9607E1B82B677D4300F5316B /* ViewController */,
 				9607E1882B677D0900F5316B /* AppDelegate.swift */,
 				9607E18A2B677D0900F5316B /* SceneDelegate.swift */,
-				9607E18C2B677D0900F5316B /* ViewController.swift */,
 				9607E18E2B677D0900F5316B /* Main.storyboard */,
 				9607E1912B677D0A00F5316B /* Assets.xcassets */,
 				9607E1932B677D0A00F5316B /* LaunchScreen.storyboard */,
@@ -125,6 +136,42 @@
 				9607E1AB2B677D0A00F5316B /* UIKit_TexowaveTaskUITestsLaunchTests.swift */,
 			);
 			path = "UIKit-TexowaveTaskUITests";
+			sourceTree = "<group>";
+		};
+		9607E1B82B677D4300F5316B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9607E1C32B678D9F00F5316B /* TableView */,
+				9607E1BE2B67815A00F5316B /* CollectionView */,
+				9607E1B92B677D8000F5316B /* TexowaveViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9607E1BB2B6780AB00F5316B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9607E1BC2B6780BC00F5316B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9607E1BE2B67815A00F5316B /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9607E1BF2B67818E00F5316B /* TexowaveCollectionViewCell.swift */,
+				9607E1C02B67818E00F5316B /* TexowaveCollectionViewCell.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		9607E1C32B678D9F00F5316B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				9607E1C52B678DDD00F5316B /* FilesTableViewcell.swift */,
+				9607E1C62B678DDD00F5316B /* FilesTableViewcell.xib */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9607E1952B677D0A00F5316B /* LaunchScreen.storyboard in Resources */,
+				9607E1C82B678DDD00F5316B /* FilesTableViewcell.xib in Resources */,
+				9607E1C22B67818E00F5316B /* TexowaveCollectionViewCell.xib in Resources */,
 				9607E1922B677D0A00F5316B /* Assets.xcassets in Resources */,
 				9607E1902B677D0900F5316B /* Main.storyboard in Resources */,
 			);
@@ -258,9 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9607E18D2B677D0900F5316B /* ViewController.swift in Sources */,
 				9607E1892B677D0900F5316B /* AppDelegate.swift in Sources */,
+				9607E1BA2B677D8000F5316B /* TexowaveViewController.swift in Sources */,
 				9607E18B2B677D0900F5316B /* SceneDelegate.swift in Sources */,
+				9607E1BD2B6780BC00F5316B /* Model.swift in Sources */,
+				9607E1C12B67818E00F5316B /* TexowaveCollectionViewCell.swift in Sources */,
+				9607E1C72B678DDD00F5316B /* FilesTableViewcell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+struct PdfSignIn {
+    
+    let pdfImg : String?
+    let pdftitle : String?
+}
+
+struct Files {
+    
+    let filename : String?
+    let filedateandtime : String?
+}
+
