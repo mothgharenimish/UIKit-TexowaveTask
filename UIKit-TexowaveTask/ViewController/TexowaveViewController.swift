@@ -10,7 +10,7 @@ import UIKit
 class TexowaveViewController: UIViewController {
 
     //MARK: -IBOutlet
-    @IBOutlet weak var pdfcollectionView: UICollectionView!
+    @IBOutlet weak var pdfcollectionViews: UICollectionView!
     @IBOutlet weak var filestableView: UITableView!
     @IBOutlet weak var fileheight: NSLayoutConstraint!
     
@@ -25,9 +25,9 @@ class TexowaveViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        pdfcollectionView.dataSource = self
-        pdfcollectionView.delegate = self
-        pdfcollectionView.collectionViewLayout = UICollectionViewFlowLayout()
+        pdfcollectionViews.dataSource = self
+        pdfcollectionViews.delegate = self
+        pdfcollectionViews.collectionViewLayout = UICollectionViewFlowLayout()
         
         filestableView.dataSource = self
         filestableView.delegate = self
@@ -38,9 +38,9 @@ class TexowaveViewController: UIViewController {
         
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.scrollDirection = .horizontal
-        pdfcollectionView.collectionViewLayout = flowLayout
+        pdfcollectionViews.collectionViewLayout = flowLayout
         
-        pdfcollectionView.register(UINib(nibName: "TexowaveCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "TexowaveCollectionViewCell")
+        pdfcollectionViews.register(UINib(nibName: "TexowaveCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "TexowaveCollectionViewCell")
         
         filestableView.register(UINib(nibName: "FilesTableViewcell", bundle: nil), forCellReuseIdentifier: "FilesTableViewcell")
         
@@ -119,7 +119,7 @@ extension TexowaveViewController : UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = pdfcollectionView.dequeueReusableCell(withReuseIdentifier: "TexowaveCollectionViewCell", for: indexPath) as! TexowaveCollectionViewCell
+        let cell = pdfcollectionViews.dequeueReusableCell(withReuseIdentifier: "TexowaveCollectionViewCell", for: indexPath) as! TexowaveCollectionViewCell
         
         cell.pdftitleLbl.text = pdf[indexPath.row].pdftitle
         cell.pdfImg.image = UIImage(named: pdf[indexPath.row].pdfImg ?? "")
