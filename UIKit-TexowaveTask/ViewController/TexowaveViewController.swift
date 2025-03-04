@@ -18,6 +18,7 @@ class TexowaveViewController: UIViewController {
     //MARK: -PDF Array
     var pdf = [PdfSignIn]()
     var fd = 0
+    var cd = 23
     
     //MARK: -Files Array
     var files = [Files]()
